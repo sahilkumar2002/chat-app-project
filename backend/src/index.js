@@ -23,7 +23,7 @@ const __dirname=path.resolve();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin:"https://chat-app-project-tggx.onrender.com",
+    origin:"https://c-app-frontend-new-2.onrender.com/",
     credentials:true,
 }));
 
